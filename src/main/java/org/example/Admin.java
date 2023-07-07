@@ -8,12 +8,15 @@ public class Admin {
     private String role;
     private ArrayList<String> listUser;
 
+
+
     public Admin(String name_admin , String password_admin,String role){
         this.name = name_admin;
         this.password = password_admin;
         this.role = role;
         this.listUser = new ArrayList<String>();
     }
+
     public Admin(String name_admin,String password_admin,String role,ArrayList<String>list_user){
         this.name = name_admin;
         this.password = password_admin;
@@ -21,6 +24,7 @@ public class Admin {
         this.listUser = list_user;
 
     }
+
 
 
 
