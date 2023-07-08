@@ -10,4 +10,7 @@ public class Homework {
         this.listHomework = new ArrayList<String>();
     }
 
+    public ArrayList<String> getListHomework() {
+        return listHomework;
+    }
 }
