@@ -11,6 +11,7 @@ public class Homework {
     }
 
     public ArrayList<String> getListHomework() {
+        System.out.println("Hello");
         return listHomework;
     }
 }
